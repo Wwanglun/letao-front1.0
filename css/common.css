@@ -73,6 +73,10 @@ img {
   height: 100%;
   text-align: center;
 }
+.lt-footer li.current p,
+.lt-footer li.current a {
+  color: orange;
+}
 .lt-footer li a {
   display: block;
   color: #fff;
