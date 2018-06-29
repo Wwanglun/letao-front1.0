@@ -1,0 +1,20 @@
+/*-------  商品信息开始 ------*/
+.pro-info {
+  padding: 0 10px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #eee;
+}
+.pro-info a {
+  width: 25%;
+  height: 100%;
+  float: left;
+  color: #666;
+  font-size: 12px;
+}
+.pro-info a.current {
+  color: orange;
+}
+/*------- 结束 ------*/
+

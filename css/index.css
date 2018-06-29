@@ -9,26 +9,3 @@
   display: block;
 }
 
-/*-------  产品开始 ------*/
-.index-product {
-  padding: 10px;
-}
-.index-product li {
-  float: left;
-  width: 48%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  text-align: center;
-  background-color: #fff;
-  margin-bottom: 10px;
-}
-.index-product li:nth-child(odd) {
-  margin-right: 4%;
-}
-.index-product .price {
-  color: red;
-}
-.index-product .oldPrice {
-  text-decoration: line-through;
-}
-/*------- 结束 ------*/
