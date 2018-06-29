@@ -13,7 +13,7 @@ $(function () {
     url: '/category/queryTopCategory',
     dataType: 'json',
     success: function (info) {
-      console.log(info);
+      //console.log(info);
       $('.cateOne').html(template('tmp', info))
       renderCateSecond(info.rows[0].id)
     }
