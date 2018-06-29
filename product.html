@@ -14,7 +14,7 @@
 <body>
 <div class="lt">
   <div class="lt-header">
-    <h3>乐淘商城</h3>
+    <h3>乐淘商品</h3>
     <a href="javascript:history.go(-1);"><i class="mui-icon mui-icon-back"></i></a>
   </div>
 
@@ -22,13 +22,7 @@
     <div class="mui-scroll-wrapper">
       <div class="mui-scroll">
         <!--这里放置真实显示的DOM内容-->
-        <div class="search-input">
-          <input  type="text" placeholder="请输入搜索关键字">
-          <button class="mui-btn mui-btn-primary searchBtn">搜索</button>
-        </div>
-        <div class="history">
-          <!-- 动态渲染数据 -->
-        </div>
+
       </div>
     </div>
   </div>
@@ -43,22 +37,7 @@
   </div>
 </div>
 
-<!-- 历史记录模板 -->
-<script type="text/template" id="tmp">
- {{ if arr.length === 0 }}
-  <p>没有历史记录</p>
- {{ else if arr.length > 0}}
-   <div class="history-header">
-     <span class="mui-pull-left">搜索历史</span>
-     <span class="mui-pull-right clearBtn"><i class="fa fa-trash"></i>清空记录</span>
-   </div>
-   <ul>
-     {{ each arr v i}}
-     <li data-index="{{i}}"><a class="mui-pull-left" href="product.html?key={{v}}">{{v}}</a><i class="mui-icon mui-icon-closeempty mui-pull-right btn_delete"></i></li>
-     {{ /each }}
-   </ul>
- {{ /if}}
-</script>
+
 
 <script src="./lib/zepto/zepto.min.js"></script>
 <script src="./lib/mui/js/mui.js"></script>
